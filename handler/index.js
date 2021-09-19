@@ -44,7 +44,7 @@ module.exports = async (client) => {
     client.on("ready", async () => {
         // Register for a single guild
         await client.guilds.cache
-            .get("replace this with your guild id")
+            .get("777879080011038751")
             .commands.set(arrayOfSlashCommands);
 
         // Register for all the guilds the bot is in
@@ -55,7 +55,7 @@ module.exports = async (client) => {
     if (!mongooseConnectionString) return;
 
     mongoose.connect(mongooseConnectionString, {
-        useFindAndModify: true,
+        useNewUrlParser: true,
         useUnifiedTopology: true,
-    });
+    }).then(console.log('\x1b[42m%s\x1b[0m', `Connected To MongoDb Database`))
 };

@@ -11,8 +11,21 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@discordjs/opus": "^0.6.0",
+        "axios": "^0.21.1",
+        "canvacord": "^5.2.3",
+        "discord-music-player": "^8.0.2",
+        "discord-xp": "^1.1.16",
         "discord.js": "^13.1.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "ffmpeg-static": "^4.4.0",
         "glob": "^7.1.7",
-        "mongoose": "^6.0.1"
+        "mongoose": "^6.0.1",
+        "node-fetch": "^3.0.0",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "node": "^16.6.1"
     }
 }
