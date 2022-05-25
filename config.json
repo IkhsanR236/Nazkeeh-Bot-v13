@@ -1,5 +1,0 @@
-{
-    "token": "your bot's token",
-    "prefix": "n!",
-    "mongooseConnectionString": "mongodb+srv://IcanR:Fujilight@nazkeehbot.r8bg1.mongodb.net/Data"
-}
